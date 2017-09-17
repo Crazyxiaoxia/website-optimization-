@@ -57,12 +57,12 @@
 * <a href="http://getbootstrap.com/components/">Bootstrap组件</a>
 
 ### 优化过程
-1. 压缩css并将CSS内联，减少请求次数；
-2. 对图片进行无损压缩，节省数据字节空间，加快首屏加载时间；
-4. 将js文件压缩；
-5. 在标签头中设置 Cache-Control的max-age值，为静态资源设置过期时间为3小时；
-6.使用getElementById替代querySelector，getElementByClassName代替querySelectorAll，更快的获取
-7.优化for循环，将不必要元素提出
+1. 压缩css并将CSS内联，减少请求次数;
+2. 对图片进行无损压缩，节省数据字节空间，加快首屏加载时间;
+4. 将js文件压缩;
+5. 在标签头中设置 Cache-Control的max-age值，为静态资源设置过期时间为3小时;
+6.使用getElementById替代querySelector，getElementByClassName代替querySelectorAll，更快的获取;
+7.优化for循环，将不必要元素提出;
 
 
 
